@@ -1,1 +1,1 @@
-## This folder is created to store all Java exercise I completed on Data Structure and Algorithm. 
+# This folder is created to store all **Java** exercise I completed on _Data Structure and Algorithm_. 
