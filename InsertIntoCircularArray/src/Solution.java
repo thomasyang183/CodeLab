@@ -59,7 +59,9 @@ public class Solution {
         sample.next.next.next = sample;
         Solution test = new Solution();
         sample = test.insert(sample,2);
-        while (sample != null) {
+        
+        // This is the wrong of doing so. Please discard the below
+        while (sample.next != null) {
             System.out.println(sample.value);
             sample = sample.next;
         }
