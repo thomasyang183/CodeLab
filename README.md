@@ -9,7 +9,7 @@ Here are a list of array/string **questions** which I will be adding to this fol
 2. [Two Sum](https://leetcode.com/problems/two-sum/solution/)
 3. [Rotate Array](https://leetcode.com/problems/rotate-array/)
 4. [Is Unique](https://www.geeksforgeeks.org/determine-string-unique-characters/)
-5. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+5. [Permutation in String(hard)](https://leetcode.com/problems/permutation-in-string/)
 
 A list of linked list **questions** below
 1. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
@@ -17,6 +17,13 @@ A list of linked list **questions** below
 3. [Partition List](https://leetcode.com/problems/partition-list/)
 4. [Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
 5. [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+
+Questions on Stack
+1.
+2.
+3.
+4.
+5. 
 
 _Have fun learning_
 
