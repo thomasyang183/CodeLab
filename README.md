@@ -21,7 +21,7 @@ A list of linked list **questions** below
 More Questions on linked list
 1. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 2. [Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)
-3. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+3. [Delete Node in a Linked List (Not a good question)](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 4. [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
 5. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 6. [Reverse Nodes in k-Group (hard)](https://leetcode.com/problems/reverse-nodes-in-k-group/)
