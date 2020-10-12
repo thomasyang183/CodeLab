@@ -16,21 +16,24 @@ public class Solution {
     8...
      */
 
-    public int[] rotateArray (int[] input, int k) {
+    public int[] rotateArray (int[] nums, int k) {
 
-        int[] res = new int[input.length];
+        k = k % nums.length;
 
-        // copy from array.length - k, to the rightmost element in the array
-        for (int i = 0; i < k; i++) {
-            res[i] = input[input.length - k + i];
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+        return nums;
+    }
+
+    public void reverse(int[] nums, int start, int end) {
+        while (start <= end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
-
-        // once that is complete, start from the index 0 of the input array
-        for (int j = 0; j < input.length - k; j++){
-            res[k+j] = input[j];
-        }
-
-        return res;
     }
 
     public static void main(String[] args) {
