@@ -1,28 +1,24 @@
 public class Solution {
-    public static int countLinkedList (ListNode input) {
-        if (input == null) {
-            return 0;
+
+    public ListNode RemoveNthFromEnd (ListNode head, int n) {
+        ListNode h1 = head, h2 = head;
+        while (n-- > 0) {   // Go thru condition first, and then later for reduction
+            h2 = h2.next;
+        } //end up in the farright index of the N length
+
+        if (h2 == null) {
+            return head.next; // The head would be the Nth node from the end, so therefore to be removed.
         }
 
-        if (input.next == null ) {
-            return 1;
-        }
-        int count = 0;
-        while (input != null) {
-            count++;
-            input = input.next;
-        }
-        return count;
-    }
+        h2 = h2.next;
 
-    public ListNode RemoveNthFromEnd (ListNode input, int n) {
-        ListNode temp = input;
-        for (int i = 1 ; i <= countLinkedList(temp) - n; i++ ) {
-            temp = temp.next;
+        while (h2 != null) {
+            h1 = h1.next;
+            h2 = h2.next;
         }
-        temp.next = temp.next.next;
-        temp.next.next = null;
-        return input;
+
+        h1.next = h1.next.next; // Nth = head.next
+        return head;
     }
 
     public static void main(String[] args) {
