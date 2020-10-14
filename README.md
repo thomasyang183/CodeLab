@@ -30,7 +30,7 @@ More Questions on linked list
 9. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  
 10.[Reverse Nodes in k-Group (hard)](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-More Questions on Linked List
+More Questions on Stack/Linked List
 1. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 2. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 3. [Simplify Path](https://leetcode.com/problems/simplify-path/)
