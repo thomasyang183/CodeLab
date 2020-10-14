@@ -28,7 +28,20 @@ More Questions on linked list
 7. [Reorder List](https://leetcode.com/problems/reorder-list/)
 8. [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 9. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
 10.[Reverse Nodes in k-Group (hard)](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+More Questions on Linked List
+1. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+2. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+3. [Simplify Path](https://leetcode.com/problems/simplify-path/)
+4. [Min Stack](https://leetcode.com/problems/min-stack/)
+5. [Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+6. [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
+7. [Mini Parser](https://leetcode.com/problems/mini-parser/)
+8. [Decode String](https://leetcode.com/problems/decode-string/)
+9. [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
+10.[132 Pattern](https://leetcode.com/problems/132-pattern/)
 
 _Have fun learning_
 
